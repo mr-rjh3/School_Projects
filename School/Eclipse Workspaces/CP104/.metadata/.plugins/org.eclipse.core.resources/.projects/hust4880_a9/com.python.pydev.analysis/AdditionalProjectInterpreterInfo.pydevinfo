@@ -1,0 +1,39 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_a9\com.python.pydev.analysis\v2_indexcache
+q1|1578337278359107000|C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\q1.py
+q2|1574558085508583000|C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\q2.py
+q3|1574555276641107000|C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\q3.py
+q4|1574556886659235000|C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\q4.py
+a9_functions|1574559023509345000|C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\a9_functions.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\q2.py
+10=q1
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\q3.py
+8=q2
+4=q3
+9=C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\q1.py
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\a9_functions.py
+6=q4
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_a9\src\q4.py
+2=a9_functions
+-- END DICTIONARY
+-- START TREE 1
+11
+ana|1|analysis_file!1^72#5*18@
+fil|1|file_in!3^13#1*35@
+fin|1|find_median!1^35#5*18@
+inv|1|invalid_file!5^15#1*51@
+my_|2|my_file!7^13#1*67@my_file!9^13#1*83@
+num|2|nums!9^21#1*83@numbers!9^12#1*83@
+out|3|output!9^22#1*83@out_file!7^19#1*67@output!3^19#1*35@
+srl|1|srl_file!5^13#1*51@
+sum|1|sum_numbers!1^11#5*18@
+val|3|valid_file!5^14#1*51@valid_sn_file!1^135#5*18@valid_sn!1^114#5*18@
+wri|1|write_file!9^19#1*83@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

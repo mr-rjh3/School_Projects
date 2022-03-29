@@ -1,0 +1,13 @@
+While attempting to resolve a particular request, the resolver may find
+that the name in question is an alias.  For example, the resolver might
+find that the name given for host name to address translation is an
+alias when it finds the CNAME RR.  If possible, the alias condition
+should be signalled back from the resolver to the client.
+
+In most cases a resolver simply restarts the query at the new name when
+it encounters a CNAME.  However, when performing the general function,
+the resolver should not pursue aliases when the CNAME RR matches the
+query type.  This allows queries which ask whether an alias is present.
+For example, if the query type is CNAME, the user is interested in the
+CNAME RR itself, and not the RRs at the name it points to.
+

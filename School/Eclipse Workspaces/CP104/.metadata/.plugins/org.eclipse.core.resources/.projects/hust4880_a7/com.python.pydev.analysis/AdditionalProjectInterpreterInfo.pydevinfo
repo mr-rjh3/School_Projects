@@ -1,0 +1,39 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_a7\com.python.pydev.analysis\v2_indexcache
+a7_functions|1573333987631385000|C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\a7_functions.py
+q1|1573059612018324000|C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\q1.py
+q2|1573333987667876000|C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\q2.py
+q3|1573007914778779000|C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\q3.py
+q4|1573333987418972000|C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\q4.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+2=a7_functions
+4=q1
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\a7_functions.py
+10=q2
+8=q3
+6=q4
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\q4.py
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\q3.py
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\q1.py
+9=C:\Users\mrrjh\Desktop\CP104\hust4880_a7\src\q2.py
+-- END DICTIONARY
+-- START TREE 1
+11
+dis|1|display_pattern!1^39#5*18@
+fin|1|find_value!1^89#5*18@
+gam|1|game_list!3^13#1*35@
+gre|1|greenn!3^15#1*35@
+kee|1|keep_positive_numbers!1^61#5*18@
+loc|1|location!5^18#1*51@
+lst|2|lst!7^13#1*67@lst!5^14#1*51@
+num|1|num_lines!9^13#1*83@
+red|1|redn!3^14#1*35@
+tar|1|target!5^16#1*51@
+win|1|win_game!1^12#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

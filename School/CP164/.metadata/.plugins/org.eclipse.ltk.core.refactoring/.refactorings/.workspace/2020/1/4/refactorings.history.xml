@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;hust4880_data_structures/src/Stack.py&apos;" deleteContents="false" description="Delete resource &apos;hust4880_data_structures/src/Stack.py&apos;" element1="/hust4880_data_structures/src/Stack.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1579724192147"/>
+</session>

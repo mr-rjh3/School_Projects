@@ -1,0 +1,7 @@
+07:17:21 **** Incremental Build of configuration Debug for project hust4880_lab10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\graph_am.o" "..\\src\\graph_am.c" 
+gcc -o hust4880_lab10.exe "src\\graph_am.o" "src\\main_am.o" 
+
+07:17:22 Build Finished. 0 errors, 0 warnings. (took 547ms)
+

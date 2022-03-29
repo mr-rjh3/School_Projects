@@ -1,0 +1,24 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\Calculator\com.python.pydev.analysis\v2_indexcache
+cal|1569450139261994000|C:\Users\mrrjh\Desktop\CP104\Calculator\src\cal.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=C:\Users\mrrjh\Desktop\CP104\Calculator\src\cal.py
+2=cal
+-- END DICTIONARY
+-- START TREE 1
+8
+add|1|addition!1^14#5*18@
+cos|1|cosine!1^31#5*18@
+div|1|division!1^23#5*18@
+mai|1|main!1^39#5*18@
+mul|1|multiply!1^20#5*18@
+sin|1|sin!1^27#5*18@
+sub|1|subtraction!1^17#5*18@
+tan|1|tangent!1^35#5*18@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

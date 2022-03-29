@@ -1,0 +1,86 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_l3\com.python.pydev.analysis\v2_indexcache
+t10|1569504694033099000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t10.py
+t01|1569277265608764000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t01.py
+t12|1569507779233314000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t12.py
+t03|1569338911050212000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t03.py
+t14|1569503854069970000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t14.py
+t02|1569277773847606000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t02.py
+t05|1569503186365764000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t05.py
+t04|1569338944387287000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t04.py
+t07|1569432647117763000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t07.py
+t06|1569419942682201000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t06.py
+t09|1569501519720281000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t09.py
+t08|1569503355690439000|C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t08.py
+-- END DISKCACHE
+-- START DICTIONARY
+24
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t09.py
+11=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t10.py
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t08.py
+15=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t12.py
+9=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t14.py
+12=t10
+2=t01
+16=t12
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t01.py
+10=t14
+24=t03
+4=t02
+20=t05
+14=t04
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t02.py
+18=t07
+19=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t05.py
+13=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t04.py
+22=t06
+23=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t03.py
+6=t09
+21=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t06.py
+8=t08
+17=C:\Users\mrrjh\Desktop\CP104\hust4880_l3\src\t07.py
+-- END DICTIONARY
+-- START TREE 1
+37
+C|2|C!1^12#1*19@C!3^14#1*35@
+F|2|F!3^12#1*35@F!1^14#1*19@
+PI|1|PI!5^12#1*51@
+are|1|area!5^19#1*51@
+bmi|2|BMI_prime!7^16#1*67@BMI!7^14#1*67@
+but|2|butter_serving!9^20#1*83@BUTTER!9^13#1*83@
+con|1|containers!5^17#1*51@
+cos|3|cost_per_container!5^20#1*51@cost!5^16#1*51@cost!11^12#1*99@
+d1|1|d1!13^13#1*115@
+d2|1|d2!13^15#1*115@
+day|2|DAYS!15^13#1*131@days!15^20#1*131@
+dia|1|Diameter_base!5^14#1*51@
+flo|2|FLOUR!9^14#1*83@flour_serving!9^21#1*83@
+fly|1|flyers!17^12#1*147@
+hei|2|height!7^12#1*67@height!5^15#1*51@
+hou|3|hours!19^13#1*163@hours_remaining!15^24#1*131@hours!15^19#1*131@
+i|1|i!21^14#1*179@
+ldo|1|Ldog!23^12#1*195@
+m|1|m!21^17#1*179@
+mil|2|milk_serving!9^19#1*83@MILK!9^12#1*83@
+min|3|minutes_remaining!15^23#1*131@minutes!15^18#1*131@MINUTES!15^12#1*131@
+n|1|n!21^13#1*179@
+n1|1|n1!13^12#1*115@
+n2|1|n2!13^14#1*115@
+num|1|number_of_mac!9^17#1*83@
+p|1|p!21^12#1*179@
+pay|1|pay!19^12#1*163@
+r|1|r!13^16#1*115@
+sal|2|salt_serving!9^22#1*83@SALT!9^15#1*83@
+sdo|1|Sdog!23^13#1*195@
+sec|2|seconds!15^15#1*131@seconds_remaining!15^22#1*131@
+tax|2|tax!11^13#1*99@tax_cost!11^16#1*99@
+tip|2|tip!11^14#1*99@tip_cost!11^17#1*99@
+tot|4|total_cost!5^21#1*51@total!11^18#1*99@total!19^15#1*163@total!23^15#1*195@
+use|1|userBMI!7^15#1*67@
+vol|1|volunteers!17^13#1*147@
+wei|1|weight!7^13#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

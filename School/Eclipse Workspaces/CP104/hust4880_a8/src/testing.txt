@@ -1,0 +1,54 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author: Riley Huston
+ID:     190954880
+Email:  hust4880@mylaurier.ca
+Version: 2019-10-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+q1
+-------------------------------------------------------
+Enter digits: 1234
+The sum of those digits is 10
+
+Enter digits: 8877
+The sum of those digits is 30
+
+-------------------------------------------------------
+q2
+-------------------------------------------------------
+Enter string here: hello i am moneky
+['e', 'l', 'o', 'm']
+
+Enter string here: i am epic
+['i']
+
+-------------------------------------------------------
+q3
+-------------------------------------------------------
+Enter string here: hello. i am l'epix? hahahah funee.
+Hello. I am l'epix? Hahahah funee.
+
+Enter string here: HAHAAHAH, you fool. i am the ultimate epic being? haha whee funne! ahhhhhhhh!
+HAHAAHAH, you fool. I am the ultimate epic being? Haha whee funne! ahhhhhhhh!
+-------------------------------------------------------
+q4
+-------------------------------------------------------
+Enter Words here, To stop enter empty string: haha
+Enter Words here, To stop enter empty string: whee
+Enter Words here, To stop enter empty string: funne
+Enter Words here, To stop enter empty string: 
+['haha', 'whee', 'funne'] is not a word chain
+
+Enter Words here, To stop enter empty string: this
+Enter Words here, To stop enter empty string: sis
+Enter Words here, To stop enter empty string: saword
+Enter Words here, To stop enter empty string: dchain
+Enter Words here, To stop enter empty string: 
+['this', 'sis', 'saword', 'dchain'] is a word chain
+
+
+-------------------------------------------------------

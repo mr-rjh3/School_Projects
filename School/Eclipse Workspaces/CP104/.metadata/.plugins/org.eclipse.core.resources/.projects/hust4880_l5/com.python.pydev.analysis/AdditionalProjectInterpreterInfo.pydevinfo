@@ -1,0 +1,44 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_l5\com.python.pydev.analysis\v2_indexcache
+functions|1571797433560841000|C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\functions.py
+t01|1571797433664530000|C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t01.py
+t11|1570714444052613000|C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t11.py
+t05|1570711791547802000|C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t05.py
+t15|1570715386012849000|C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t15.py
+t08|1570715723914423000|C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t08.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+11=C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t05.py
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t15.py
+2=t01
+4=functions
+10=t11
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t01.py
+12=t05
+8=t15
+9=C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t11.py
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\functions.py
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_l5\src\t08.py
+6=t08
+-- END DICTIONARY
+-- START TREE 1
+13
+day|1|day!1^15#1*19@
+fas|1|fast_food!3^125#5*34@
+is_|1|is_leap!3^35#5*34@
+mag|2|magic_date!3^12#5*34@magic!1^19#1*19@
+mon|1|month!1^16#1*19@
+n|1|n!5^13#1*51@
+num|1|numeral!5^15#1*51@
+pri|1|price!7^13#1*67@
+qua|1|quadrant!3^95#5*34@
+rom|1|roman_numeral!3^66#5*34@
+x|1|x!9^12#1*83@
+y|1|y!9^13#1*83@
+yea|2|year!11^15#1*99@year!1^17#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

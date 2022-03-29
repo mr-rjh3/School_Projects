@@ -1,0 +1,122 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author: Riley Huston
+ID:     190954880
+Email:  hust4880@mylaurier.ca
+Version: 2019-10-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+q1
+-------------------------------------------------------
+Enter "red" or "green" or press ENTER to stop: red
+Enter "red" or "green" or press ENTER to stop: Red
+Enter "red" or "green" or press ENTER to stop: RED
+Enter "red" or "green" or press ENTER to stop: ReD
+Enter "red" or "green" or press ENTER to stop: rEd
+Enter "red" or "green" or press ENTER to stop: Green
+Enter "red" or "green" or press ENTER to stop: GREen
+Enter "red" or "green" or press ENTER to stop: GREEN
+Enter "red" or "green" or press ENTER to stop: Blue
+Enter "red" or "green" or press ENTER to stop: BLue
+Enter "red" or "green" or press ENTER to stop: 
+Number of "red" entered: 5
+Number of "green" entered: 3
+"red" team wins!!!
+
+Enter "red" or "green" or press ENTER to stop: red
+Enter "red" or "green" or press ENTER to stop: red
+Enter "red" or "green" or press ENTER to stop: green
+Enter "red" or "green" or press ENTER to stop: green
+Enter "red" or "green" or press ENTER to stop: greEn
+Enter "red" or "green" or press ENTER to stop: 
+Number of "red" entered: 2
+Number of "green" entered: 3
+"green" team wins!!!
+
+Enter "red" or "green" or press ENTER to stop: Green
+Enter "red" or "green" or press ENTER to stop: RED
+Enter "red" or "green" or press ENTER to stop: REd
+Enter "red" or "green" or press ENTER to stop: GreeN
+Enter "red" or "green" or press ENTER to stop: 
+Number of "red" entered: 2
+Number of "green" entered: 2
+It's a tie!!!
+
+-------------------------------------------------------
+q2
+-------------------------------------------------------
+Enter number of lines: 7
+#
+##
+# #
+#  #
+#   #
+#    #
+#######
+
+Enter number of lines: 15
+#
+##
+# #
+#  #
+#   #
+#    #
+#     #
+#      #
+#       #
+#        #
+#         #
+#          #
+#           #
+#            #
+###############
+
+Enter number of lines: 3
+#
+##
+###
+
+-------------------------------------------------------
+q3
+-------------------------------------------------------
+Enter a positive integer: 11
+Enter a positive integer: 23
+Enter a positive integer: 1111
+Enter a positive integer: 90394092
+Enter a positive integer: ffff
+Enter a positive integer: asda
+Enter a positive integer: HEps
+Enter a positive integer: 0
+List entered: [11, 23, 1111, 90394092]
+-------------------------------------------------------
+q4
+-------------------------------------------------------
+Enter a positive integer: 12
+Enter a positive integer: 12
+Enter a positive integer: 3
+Enter a positive integer: 44
+Enter a positive integer: 3
+Enter a positive integer: 1
+Enter a positive integer: 0
+List entered: [12, 12, 3, 44, 3, 1]
+Enter a target = 3
+Target exists at location(s): [2, 4]
+
+Enter a positive integer: 23
+Enter a positive integer: rr
+Enter a positive integer: 232
+Enter a positive integer: ww
+Enter a positive integer: wqej
+Enter a positive integer: PPP
+Enter a positive integer: 09
+Enter a positive integer: 29
+Enter a positive integer: 2
+Enter a positive integer: 9
+Enter a positive integer: 0
+List entered: [23, 232, 9, 29, 2, 9]
+Enter a target = 9
+Target exists at location(s): [2, 5]
+-------------------------------------------------------

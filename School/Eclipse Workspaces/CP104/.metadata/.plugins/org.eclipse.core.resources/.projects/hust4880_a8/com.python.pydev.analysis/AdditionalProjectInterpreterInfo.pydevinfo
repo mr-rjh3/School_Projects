@@ -1,0 +1,35 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_a8\com.python.pydev.analysis\v2_indexcache
+q1|1573684849940048000|C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\q1.py
+q2|1573859229148745000|C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\q2.py
+q3|1573935443697939000|C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\q3.py
+q4|1573861919497998000|C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\q4.py
+a8_functions|1573937475942260000|C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\a8_functions.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+10=q1
+4=q2
+8=q3
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\q4.py
+6=q4
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\q3.py
+2=a8_functions
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\a8_functions.py
+9=C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\q1.py
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_a8\src\q2.py
+-- END DICTIONARY
+-- START TREE 1
+7
+fin|1|find_frequent!1^34#5*18@
+fre|1|frequent!3^15#1*35@
+is_|2|is_chain!5^21#1*51@is_word_chain!1^91#5*18@
+my_|5|my_str!7^13#1*67@my_str!5^15#5*51@my_str!3^14#1*35@my_list!5^13#1*51@my_str!9^13#1*83@
+str|1|string_capitalizer!1^61#5*18@
+sum|1|sum_digit_string!1^13#5*18@
+tot|1|total!9^14#1*83@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

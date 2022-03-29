@@ -1,0 +1,2 @@
+<Compiler> <Add option="-std=c++11" /> <Add option="-g" /> <Add directory="$(codeblocks)/../SFML/include" /> </Compiler> <Linker> <Add library="sfml-graphics-d" /> <Add library="sfml-window-d" /> <Add library="sfml-system-d" /> <Add directory="$(codeblocks)/../SFML/lib" /> </Linker>
+			

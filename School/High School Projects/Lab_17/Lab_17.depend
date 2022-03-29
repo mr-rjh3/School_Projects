@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1526312624 source:s:\projects\lab_17\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<ctime>
+

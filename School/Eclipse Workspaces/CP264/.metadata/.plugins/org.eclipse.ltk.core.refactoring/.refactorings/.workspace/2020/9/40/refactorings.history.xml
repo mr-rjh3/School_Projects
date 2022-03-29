@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;hust4880_Quiz02_Q2/src/arrayMin.c&apos;" deleteContents="false" description="Delete resource &apos;hust4880_Quiz02_Q2/src/arrayMin.c&apos;" element1="/hust4880_Quiz02_Q2/src/arrayMin.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1601315034357"/>
+</session>

@@ -1,0 +1,33 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_l10\com.python.pydev.analysis\v2_indexcache
+t01|1585801381309363000|C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\t01.py
+t03|1585799190334953000|C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\t03.py
+t02|1585801492097177000|C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\t02.py
+t04|1585802226119544000|C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\t04.py
+test_Sorts_array|1585799192860472000|C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\test_Sorts_array.py
+test_Sorts_List_linked|1585873172610286000|C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\test_Sorts_List_linked.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+1=C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\test_Sorts_List_linked.py
+6=t01
+3=C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\test_Sorts_array.py
+5=C:\Users\mrrjh\Desktop\CP164\hust4880_l10\src\t01.py
+4=test_Sorts_array
+2=test_Sorts_List_linked
+-- END DICTIONARY
+-- START TREE 1
+8
+cre|6|create_sorted!1^33#5*18@create_sorted!3^37#5*34@create_randoms!3^71#5*34@create_reversed!3^54#5*34@create_reversed!1^50#5*18@create_randoms!1^67#5*18@
+l1|1|l1!5^13#1*51@
+l2|1|l2!5^14#1*51@
+l3|1|l3!5^15#1*51@
+siz|2|SIZE!1^20#1*19@SIZE!3^18#1*35@
+sor|2|SORTS!1^30#1*19@SORTS!3^34#1*35@
+tes|4|test_sort!1^91#5*18@test_sort!3^93#5*34@TESTS!1^22#1*19@TESTS!3^20#1*35@
+xra|2|XRANGE!1^21#1*19@XRANGE!3^19#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

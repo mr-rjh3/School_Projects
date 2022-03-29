@@ -1,0 +1,10 @@
+02:28:13 **** Incremental Build of configuration Debug for project hust4880_lab07 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\bst.o" "..\\src\\bst.c" 
+..\src\bst.c:154:18: warning: 'bst_delete_node' defined but not used [-Wunused-function]
+ static bst_node *bst_delete_node(bst_node *parent) {
+                  ^~~~~~~~~~~~~~~
+gcc -o hust4880_lab07.exe "src\\bst.o" "src\\int_data.o" "src\\main.o" "src\\tests.o" "src\\utility_library.o" 
+
+02:28:14 Build Finished. 0 errors, 1 warnings. (took 620ms)
+

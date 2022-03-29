@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;encodeOutput.dat&apos; to &apos;Huffman_Project&apos;&#x0D;&#x0A;- Original project: &apos;Huffman_Project&apos;&#x0D;&#x0A;- Destination element: &apos;Huffman_Project&apos;&#x0D;&#x0A;- Original element: &apos;encodeOutput.dat&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="Debug/encodeOutput.dat" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1606736364728" target="/Huffman_Project" units="0" version="1.0"/>
+</session>

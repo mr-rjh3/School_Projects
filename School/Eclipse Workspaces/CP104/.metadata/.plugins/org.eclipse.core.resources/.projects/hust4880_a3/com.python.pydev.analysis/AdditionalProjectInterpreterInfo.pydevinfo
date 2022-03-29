@@ -1,0 +1,39 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_a3\com.python.pydev.analysis\v2_indexcache
+q1|1569505179336593000|C:\Users\mrrjh\Desktop\CP104\hust4880_a3\src\q1.py
+q2|1569506662636094000|C:\Users\mrrjh\Desktop\CP104\hust4880_a3\src\q2.py
+q3|1569506722922083000|C:\Users\mrrjh\Desktop\CP104\hust4880_a3\src\q3.py
+q4|1569507751035072000|C:\Users\mrrjh\Desktop\CP104\hust4880_a3\src\q4.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+2=q1
+6=q2
+8=q3
+4=q4
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_a3\src\q1.py
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_a3\src\q4.py
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_a3\src\q2.py
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_a3\src\q3.py
+-- END DICTIONARY
+-- START TREE 1
+14
+bal|2|balloons_per_child!1^15#1*19@balloons!1^12#1*19@
+cal|1|calorie_calculator!3^12#5*34@
+car|1|carb_grams!3^32#1*35@
+chi|1|childeren!1^13#1*19@
+exa|1|exam_score!5^15#1*51@
+fat|1|fat_grams!3^31#1*35@
+fin|1|final_exam_mark!5^13#1*51@
+mid|1|midterm_mark!5^12#1*51@
+n|1|n!7^12#1*67@
+n1|1|n1!7^13#1*67@
+n2|1|n2!7^14#1*67@
+n_s|1|n_sum!7^15#1*67@
+rem|1|remaining_balloons!1^16#1*19@
+tot|1|total_cal!3^35#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

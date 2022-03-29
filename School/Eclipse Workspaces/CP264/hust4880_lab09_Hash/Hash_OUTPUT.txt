@@ -1,0 +1,74 @@
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+111
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   1      no                 111
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+112
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   2      no                 112
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+57
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   7      no                  57
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+66
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   6      no                  66
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+1
+::: [1] ==> Insert:
+Enter an integer key/value to insert into Hash table: 
+71
+
+Slot  Collision?  Value Inserted
+====  ==========  ==============
+   1      Yes
+   2      Yes
+   3      no                  71
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+3
+::: [3] ==> Search:
+
+Enter integer key/value to search:
+44
+Key/Value [44] is not found!
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+3
+::: [3] ==> Search:
+
+Enter integer key/value to search:
+71
+Key/Value [71] is found at index/slot [3]
+
+Enter:: 1) Insert 	 2) Display 	 3) Search 	 4) Exit: 
+4
+::: [4] ==> Exit:
+
+::: Program Terminated...till next time.

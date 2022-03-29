@@ -1,0 +1,56 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author: Riley Huston
+ID:     190954880
+Email:  hust4880@mylaurier.ca
+Version: 2019-10-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+q1
+-------------------------------------------------------
+Please enter your investment amount: 1000000
+Please enter number of years: 5
+Year Value (Million Dollars)
+---- -----------------------
+   1                1.050000
+   2                1.102500
+   3                1.157625
+   4                1.215506
+   5                1.276282
+-------------------------------------------------------
+q2
+-------------------------------------------------------
+Enter a positive integer: 90
+Perfect squares below 90 are: 1, 4, 9, 16, 25, 36, 49, 64, 81
+
+Enter a positive integer: 21
+Perfect squares below 21 are: 1, 4, 9, 16
+
+Enter a positive integer: -15
+You did not enter a positive integer
+
+-------------------------------------------------------
+q3
+-------------------------------------------------------
+Enter a positive integer: 7
+7! = 5040
+
+Enter a positive integer: -5
+You did not enter a positive integer
+-------------------------------------------------------
+q4
+-------------------------------------------------------
+Enter a positive integer: 8
+8 is not a prime number
+
+Enter a positive integer: -4
+Enter a positive integer: 5.2
+Enter a positive integer: 23
+23 is a prime number
+
+Enter a positive integer: 1
+1 is a prime number
+-------------------------------------------------------

@@ -1,0 +1,210 @@
+"""
+-------------------------------------------------------
+Linked version of the Set ADT.
+-------------------------------------------------------
+Author:  David Brown
+ID:      999999999
+Email:   dbrown@wlu.ca
+Section: CP164 B, C
+__updated__ = "2020-04-11"
+-------------------------------------------------------
+"""
+# Imports
+from copy import deepcopy
+
+
+class _Set_Node:
+
+    def __init__(self, value, next_):
+        """
+        -------------------------------------------------------
+        Initializes a Set node that contains a copy of value
+        and a link to another Set node.
+        Use: node = _Set_Node(value, _next)
+        -------------------------------------------------------
+        Parameters:
+            value - value for node (?)
+            next_ - another Set node (_Set_Node)
+        Returns:
+            a new _Set_Node object (_Set_Node)
+        -------------------------------------------------------
+        """
+        self._value = deepcopy(value)
+        self._next = next_
+
+
+class Set:
+
+    def __init__(self):
+        """
+        -------------------------------------------------------
+        Initializes an empty Set.
+        Use: set = Set()
+        -------------------------------------------------------
+        Returns:
+            A new Set object (Set)
+        -------------------------------------------------------
+        """
+        self._front = None
+
+    def __len__(self):
+        """
+        -------------------------------------------------------
+        Returns the number of values in the Set.
+        Use: n = len(set)
+        -------------------------------------------------------
+        Returns:
+            the number of values in the Set (int)
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def is_empty(self):
+        """
+        -------------------------------------------------------
+        Determines if the Set is empty.
+        Use: b = set.is_empty()
+        -------------------------------------------------------
+        Returns:
+            True if the Set is empty, False otherwise.
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def add(self, value):
+        """
+        ---------------------------------------------------------
+        Adds value to the end of the Set, allows only one copy of value.
+        Use: inserted = set.add(value)
+        -------------------------------------------------------
+        Parameters:
+            value - a comparable data element (?)
+        Returns:
+            True if value is inserted, False otherwise (boolean)
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def _linear_search(self, key):
+        """
+        -------------------------------------------------------
+        Searches for the first occurrence of key in set.
+        Private helper method.
+        Use: prev, curr = self._linear_search(key)
+        -------------------------------------------------------
+        Parameters:
+            key - a partial data element (?)
+        Returns:
+            prev - pointer to the node prev to the node containing key (_setNode)
+            curr - pointer to the node containing key (_setNode)
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def find(self, key):
+        """
+        -------------------------------------------------------
+        Finds and returns a copy of the first value in set that matches key.
+        Use: value = lst.find(key)
+        -------------------------------------------------------
+        Parameters:
+            key - a partial data element (?)
+        Returns:
+            value - a copy of the full value matching key, otherwise None (?)
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def remove(self, key):
+        """
+        -------------------------------------------------------
+        Finds, removes, and returns the value in set that matches key.
+        Returns None if no matching value.
+        Use: value = set.remove(key)
+        -------------------------------------------------------
+        Parameters:
+            key - a partial data element (?)
+        Returns:
+            value - the full value matching key, otherwise None (?)
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def __contains__(self, key):
+        """
+        ---------------------------------------------------------
+        Determines if the Set contains key.
+        Use: b = key in set
+        -------------------------------------------------------
+        Parameters:
+            key - a comparable data element (?)
+        Returns:
+            True if the Set contains key, False otherwise.
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def reverse(self):
+        """
+        -------------------------------------------------------
+        Reverses the order of the elements in set.
+        Use: source.reverse()
+        -------------------------------------------------------
+        Returns:
+            None
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def split_th(self):
+        """
+        -------------------------------------------------------
+        Splits source into two parts. target1 contains the first half,
+        target2 the second half. curr set becomes empty.
+        Uses Tortoise/Hare algorithm.
+        Use: target1, target2 = source.split_th()
+        -------------------------------------------------------
+        Returns:
+            target1 - a new set with >= 50% of the original set (Set)
+            target2 - a new set with <= 50% of the original set (Set)
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def combine(self, source1, source2):
+        """
+        -------------------------------------------------------
+        Combines two source sets into the curr target set.
+        When finished, the contents of source1 and source2 are interlaced
+        into target and source1 and source2 are empty.
+        Order of source values is preserved.
+        (iterative algorithm)
+        Use: target.combine(source1, source2)
+        -------------------------------------------------------
+        Parameters:
+            source1 - an linked set (Set)
+            source2 - an linked set (Set)
+        Returns:
+            None
+        -------------------------------------------------------
+        """
+        # your code here
+
+    def __iter__(self):
+        """
+        USE FOR TESTING ONLY
+        -------------------------------------------------------
+        Generates a Python iterator. Iterates through the set
+        from first to last items.
+        Use: for v in set:
+        -------------------------------------------------------
+        Returns:
+            yields
+            value - the next value in the set (?)
+        -------------------------------------------------------
+        """
+        curr = self._front
+
+        while curr is not None:
+            yield curr._value
+            curr = curr._next

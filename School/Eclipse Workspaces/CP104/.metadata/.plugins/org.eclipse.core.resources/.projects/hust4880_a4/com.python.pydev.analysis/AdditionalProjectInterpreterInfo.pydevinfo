@@ -1,0 +1,32 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_a4\com.python.pydev.analysis\v2_indexcache
+q1|1570140772883094000|C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q1.py
+q2|1570138711078011000|C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q2.py
+q3|1570138860984589000|C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q3.py
+q3_functions|1570138860966827000|C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q3_functions.py
+q2_functions|1570138711030070000|C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q2_functions.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+6=q1
+2=q2
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q3.py
+4=q3
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q1.py
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q2.py
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q2_functions.py
+10=q3_functions
+8=q2_functions
+9=C:\Users\mrrjh\Desktop\CP104\hust4880_a4\src\q3_functions.py
+-- END DICTIONARY
+-- START TREE 1
+4
+cal|0|
+mai|3|main!1^13#5*18@main!3^15#5*34@main!5^13#5*50@
+mat|1|math_quiz!7^12#5*66@
+num|1|num_day!9^11#5*82@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1518709992 source:s:\projects\assignment 1\main.cpp
+	<iostream>
+	<string>
+	<Windows.h>
+	<math.h>
+
+1518713594 source:\\2280m01\users\student\hustrile024\projects\assignment 1\main.cpp
+	<iostream>
+	<string>
+	<Windows.h>
+	<math.h>
+

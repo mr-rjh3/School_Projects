@@ -1,0 +1,41 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_a03\com.python.pydev.analysis\v2_indexcache
+functions|1580440903371435000|C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\functions.py
+t01|1580437750319500000|C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t01.py
+t03|1580438573782491000|C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t03.py
+t02|1580437879606246000|C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t02.py
+t05|1580439484697669000|C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t05.py
+t04|1580439259683536000|C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t04.py
+t07|1580439480703027000|C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t07.py
+t06|1581527037924365000|C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+2=functions
+10=t01
+11=C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t02.py
+3=C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t07.py
+9=C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t01.py
+5=C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t03.py
+6=t03
+7=C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\t04.py
+12=t02
+8=t04
+4=t07
+1=C:\Users\mrrjh\Desktop\CP164\hust4880_a03\src\functions.py
+-- END DICTIONARY
+-- START TREE 1
+8
+is_|1|is_palindrome_stack!1^65#5*18@
+maz|1|maze!3^14#1*35@
+ope|1|OPERATORS!1^97#1*19@
+pos|1|postfix!1^99#5*18@
+sou|4|source1!5^14#1*51@source2!7^14#1*67@source2!5^15#1*51@source1!7^13#1*67@
+sta|3|stack_combine!1^39#5*18@stack_split_alt!1^13#5*18@stack_maze!1^133#5*18@
+stk|2|stk!9^14#1*83@stk!11^13#1*99@
+tar|2|target!7^12#1*67@target!5^32#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

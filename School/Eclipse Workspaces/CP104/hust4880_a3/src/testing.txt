@@ -1,0 +1,37 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author: Riley Huston
+ID:     190954880
+Email:  hust4880@mylaurier.ca
+Version: 2019-09-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+q1
+-------------------------------------------------------
+Enter number of balloons: 400
+Enter number of children: 11
+Each child will receive 36 balloons
+Balloons that won’t be distributed: 4
+
+-------------------------------------------------------
+q2
+-------------------------------------------------------
+Enter your score in Midterm (0-100): 60
+Enter your score in Final (0-100): 38
+Your weighted exam score is: 27.2
+-------------------------------------------------------
+q3
+-------------------------------------------------------
+Enter a positive two digit integer: 25
+The sum of the two digits in the integer (25) is: 7
+-------------------------------------------------------
+q4
+-------------------------------------------------------
+Enter the fat grams consumed: 100
+Enter the carbohydrate grams consumed: 200
+Total calories a total of 1700[Fat calories:900.00 and Carb calories: 800.00]
+
+-------------------------------------------------------

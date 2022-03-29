@@ -1,0 +1,57 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author: Riley Huston
+ID:     190954880
+Email:  hust4880@mylaurier.ca
+Version: 2019-09-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Enter a number: 4
+The sum of all odd numbers from 1 to 4 is: 4
+
+Enter a number: 123
+The sum of all odd numbers from 1 to 123 is: 3844
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Enter height in characters: 6
+Enter the draw character: $
+     $      
+    $$$     
+   $$$$$    
+  $$$$$$$   
+ $$$$$$$$$  
+$$$$$$$$$$$ 
+
+Enter height in characters: 3
+Enter the draw character: #
+  #   
+ ###  
+##### 
+
+
+-------------------------------------------------------
+q3
+-------------------------------------------------------
+Length of call (minutes): 10
+Hour of call (24hour format): 17
+Total price of call: $0.80
+
+-------------------------------------------------------
+q4
+-------------------------------------------------------
+Enter x coordinate: 0
+Enter y coordinate: 0
+The point (0, 0) lies in Q1
+
+Enter x coordinate: 1
+Enter y coordinate: 1
+The point (1, 1) lies in Q1
+
+
+-------------------------------------------------------

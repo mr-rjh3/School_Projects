@@ -1,0 +1,70 @@
+WALLS
+960 = side wall
+941 = top/bottom wall
+980 = bottom left wall
+940 = top left wall
+942 = top right wall
+982 = bottom right wall
+
+
+965 = left down up wall
+963 = right up down wall
+1200 = dirty wall
+1227 = top right cracked wall
+1189 = bot left cracked wall
+1229 = up left cracked wall
+1188 = top/bot cracked wall
+1187 = bot right cracked wall
+1207 = side cracked wall
+
+
+
+
+FLOOR
+149 = brick floor
+148 = brick left
+127 = brick top left
+128 = brick top
+129 = brick top right
+150 = brick right
+171 = brick bottom right
+170 = brick bottom
+169 = brick bottom left
+132 = brick all sides
+275= black brick
+153 = brick top bot
+
+
+274 = black brick left
+276= black brick right
+254= black brick top
+296=black brick bot
+253= black brick left top
+295=black brick left bot
+255=black brick right top
+297= black brick right bot
+279=black brick top bot
+
+258= black brick all sides
+277 = black brick left right
+280 = black brick bot top right
+278 = black brick bot top left
+
+
+
+139 = grass patch
+156 = full grass
+155 = grass left dirt
+134 = grass top left dirt
+135 = grass top dirt
+136 = grass top right dirt
+157 = grass right dirt
+178 = grass bottom right dirt
+177 = grass bottom dirt
+176 = grass bottom left dirt
+137 = grass top left and right dirt
+
+
+
+179 = bot right left dirt
+161 = right top bot dirt

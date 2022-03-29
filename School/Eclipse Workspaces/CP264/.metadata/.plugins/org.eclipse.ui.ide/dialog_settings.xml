@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.cdt.ui.wizards.NewCWizard2"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.cdt.ui.newCWizards"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\mrrjh\Desktop\CP Workspaces\CP264\202009_CP264_Lab05_LinkedLists_GivenCode"/>
+			<item value="C:\Users\mrrjh\Desktop\CP Workspaces\CP264"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\mrrjh\Downloads\202009_CP264_Lab10_GraphsAM_GivenCode.zip"/>
+			<item value="C:\Users\mrrjh\Downloads\202009_CP264_Lab09_Heap_GivenCode.zip"/>
+			<item value="C:\Users\mrrjh\Downloads\202009_CP264_Lab09_Hashing_GivenCode.zip"/>
+			<item value="C:\Users\mrrjh\Downloads\202009_CP264_Lab07_BST_GivenCode.zip"/>
+			<item value=""/>
+			<item value="C:\Users\mrrjh\Desktop\CP Workspaces\CP264\202001_CP264_Lab04_given_code.zip"/>
+		</list>
+	</section>
+</section>

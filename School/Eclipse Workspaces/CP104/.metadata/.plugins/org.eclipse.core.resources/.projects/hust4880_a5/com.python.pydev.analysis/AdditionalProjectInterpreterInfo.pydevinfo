@@ -1,0 +1,56 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_a5\com.python.pydev.analysis\v2_indexcache
+q1|1571797433683480000|C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\q1.py
+a3_functions|1570746695885855000|C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\a3_functions.py
+q2|1570743098071110000|C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\q2.py
+q3|1571797433742321000|C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\q3.py
+q4|1570745564740292000|C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\q4.py
+a2_functions|1570747177070949000|C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\a2_functions.py
+a1_functions|1571797433696496000|C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\a1_functions.py
+a4_functions|1570747177052057000|C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\a4_functions.py
+-- END DISKCACHE
+-- START DICTIONARY
+16
+2=q1
+8=q2
+6=q3
+10=q4
+15=C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\a4_functions.py
+16=a4_functions
+4=a3_functions
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\q3.py
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\q1.py
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\q2.py
+9=C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\q4.py
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\a3_functions.py
+14=a2_functions
+11=C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\a1_functions.py
+12=a1_functions
+13=C:\Users\mrrjh\Desktop\CP104\hust4880_a5\src\a2_functions.py
+-- END DICTIONARY
+-- START TREE 1
+19
+avg|1|avg!1^16#1*19@
+bas|1|base_price!3^16#5*34@
+cal|1|call_length!5^13#1*51@
+col|1|color!7^13#1*67@
+cos|1|COST_PER_MIN!3^12#1*35@
+ear|1|EARLY_DISCOUNT!3^13#1*35@
+hou|1|hour!5^14#1*51@
+lat|1|LATE_DISCOUNT!3^14#1*35@
+len|1|length_dicount!3^53#5*34@
+loc|1|location!9^15#1*83@
+max|1|max_three!11^11#5*98@
+num|1|num!7^12#1*67@
+poc|1|pocket_color!13^11#5*114@
+qua|1|quadrant!15^11#5*130@
+tim|1|time_dicount!3^31#5*34@
+tot|1|total_price!5^16#1*51@
+x|2|x!9^12#1*83@x!1^12#1*19@
+y|2|y!9^13#1*83@y!1^13#1*19@
+z|1|z!1^14#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

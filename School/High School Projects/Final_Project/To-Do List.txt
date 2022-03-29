@@ -1,0 +1,9 @@
+//=Not crucial
+
+Add sound
+Create all rooms in dungeon
+Be able to enter another room in dungeon
+Keys
+create/think of boss
+
+//create puzzle

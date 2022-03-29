@@ -1,0 +1,36 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP104\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_l11\com.python.pydev.analysis\v2_indexcache
+functions|1574957794114742000|C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\functions.py
+t03|1574955405289516000|C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t03.py
+t14|1574954110374464000|C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t14.py
+t13|1574954835380822000|C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t13.py
+t15|1574955404970771000|C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t15.py
+t06|1574952058296193000|C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t06.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+5=C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\functions.py
+6=functions
+9=C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t13.py
+2=t14
+8=t03
+10=t13
+4=t15
+7=C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t03.py
+1=C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t14.py
+3=C:\Users\mrrjh\Desktop\CP104\hust4880_l11\src\t15.py
+-- END DICTIONARY
+-- START TREE 1
+7
+a|2|a!1^12#1*19@a!3^12#1*35@
+b|2|b!3^13#1*35@b!1^14#1*19@
+gen|1|generate_matrix_num!5^13#5*50@
+mat|4|matrix_equal!5^174#5*50@matrix!7^13#1*67@matrix_transpose!5^147#5*50@matrix!9^14#1*83@
+pri|1|print_matrix_num!5^43#5*50@
+sca|1|scalar_multiply!5^127#5*50@
+sta|1|stats!5^95#5*50@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

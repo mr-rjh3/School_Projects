@@ -1,0 +1,10 @@
+02:28:14 **** Incremental Build of configuration Debug for project hust4880_quiz01 ****
+Info: Internal Builder is used for build
+gcc -o hust4880_quiz01.exe "src\\hust4880_q01.o" "src\\hust4880_q02.o" 
+src\hust4880_q02.o: In function `main':
+C:\Users\mrrjh\Desktop\CP Workspaces\CP264\hust4880_quiz01\Debug/../src/hust4880_q02.c:17: multiple definition of `main'
+src\hust4880_q01.o:C:\Users\mrrjh\Desktop\CP Workspaces\CP264\hust4880_quiz01\Debug/../src/hust4880_q01.c:14: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+02:28:15 Build Failed. 2 errors, 0 warnings. (took 329ms)
+

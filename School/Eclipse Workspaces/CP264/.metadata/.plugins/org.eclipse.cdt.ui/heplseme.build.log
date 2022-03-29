@@ -1,0 +1,7 @@
+15:25:04 **** Incremental Build of configuration Debug for project heplseme ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\heplseme.o" "..\\src\\heplseme.c" 
+gcc -o heplseme.exe "src\\heplseme.o" 
+
+15:25:05 Build Finished. 0 errors, 0 warnings. (took 579ms)
+

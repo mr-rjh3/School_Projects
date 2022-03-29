@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;hust4880_quiz01/src/hust4880_quiz01.c&apos; to &apos;q1.c&apos;" description="Rename resource &apos;hust4880_quiz01.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hust4880_quiz01.c" name="q1.c" stamp="1600454392470" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;hust4880_quiz01/src/q1.c&apos; to &apos;hust4880_quiz01.c&apos;" description="Rename resource &apos;q1.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/q1.c" name="hust4880_quiz01.c" stamp="1600633731457" updateReferences="true"/>
+</session>

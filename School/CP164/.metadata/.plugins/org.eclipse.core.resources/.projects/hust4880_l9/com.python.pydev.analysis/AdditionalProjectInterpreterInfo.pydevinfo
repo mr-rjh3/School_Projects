@@ -1,0 +1,32 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\mrrjh\Desktop\CP164\.metadata\.plugins\org.eclipse.core.resources\.projects\hust4880_l9\com.python.pydev.analysis\v2_indexcache
+functions|1585203881808805000|C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\functions.py
+t01|1585204571217372000|C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\t01.py
+t03|1585204239697329000|C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\t03.py
+t02|1585204194264496000|C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\t02.py
+t04|1585204558424401000|C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\t04.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+1=C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\t01.py
+2=t01
+9=C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\functions.py
+10=functions
+4=t03
+8=t02
+6=t04
+7=C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\t02.py
+3=C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\t03.py
+5=C:\Users\mrrjh\Desktop\CP164\hust4880_l9\src\t04.py
+-- END DICTIONARY
+-- START TREE 1
+4
+foo|1|foods!1^15#1*19@
+fv|1|fv!1^14#1*19@
+h_s|3|h_set!3^12#1*35@h_set!5^12#1*51@h_set!7^12#1*67@
+has|1|hash_table!9^11#5*82@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

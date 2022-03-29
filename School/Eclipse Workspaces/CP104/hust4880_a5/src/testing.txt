@@ -1,0 +1,81 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author: Riley Huston
+ID:     190954880
+Email:  hust4880@mylaurier.ca
+Version: 2019-09-26
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+q1
+-------------------------------------------------------
+Please enter your first number: 6
+Please enter your second number: 2
+Please enter your third number: 7
+The average of the two smaller values is: 4.0
+
+Please enter your first number: 11.5
+Please enter your second number: 123.4
+Please enter your third number: 1.33
+The average of the two smaller values is: 6.4
+
+Please enter your first number: 9.22
+Please enter your second number: 9189.55
+Please enter your third number: 12.3
+The average of the two smaller values is: 10.8
+
+-------------------------------------------------------
+q2
+-------------------------------------------------------
+Enter a pocket number: 0
+The selected pocket is green
+
+Enter a pocket number: 5
+The selected pocket is red
+
+Enter a pocket number: 6
+The selected pocket is black
+
+Enter a pocket number: 13
+The selected pocket is black
+
+Enter a pocket number: 16
+The selected pocket is red
+
+Enter a pocket number: 23
+The selected pocket is red
+
+Enter a pocket number: 26
+The selected pocket is black
+
+Enter a pocket number: 31
+The selected pocket is black
+
+Enter a pocket number: 34
+The selected pocket is red
+
+Enter a pocket number: 44
+The pocket number is incorrect.
+
+-------------------------------------------------------
+q3
+-------------------------------------------------------
+Length of call (minutes): 10
+Hour of call (24hour format): 17
+Total price of call: $0.80
+
+-------------------------------------------------------
+q4
+-------------------------------------------------------
+Enter x coordinate: 0
+Enter y coordinate: 0
+The point (0, 0) lies in Q1
+
+Enter x coordinate: 1
+Enter y coordinate: 1
+The point (1, 1) lies in Q1
+
+
+-------------------------------------------------------

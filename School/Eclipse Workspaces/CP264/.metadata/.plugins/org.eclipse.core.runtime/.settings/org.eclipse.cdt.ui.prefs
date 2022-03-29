@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+formatSourceCodeEditedLines=false
+org.eclipse.cdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="org.eclipse.cdt.ui.text.codetemplates.filecomment_context" deleted\="false" description\="Comment for created C/C++ files" enabled\="true" id\="org.eclipse.cdt.ui.text.codetemplates.filecomment" name\="filecomment">/*\r\n-------------------------------------\r\nFile\:    ${file_name}\r\nProject\: ${project_name}\r\nfile description\r\n-------------------------------------\r\nAuthor\:  your name here\r\nID\:      your ID here\r\nEmail\:   your Laurier email here\r\nVersion  ${id\:date('yyyy-MM-dd')}\r\n-------------------------------------\r\n */</template></templates>
+org.eclipse.cdt.ui.text.templates.custom=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+removeTrailingWhitespaceEditedLines=false
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
+wizard.preferred.toolchains=cdt.managedbuild.toolchain.gnu.mingw.exe.debug

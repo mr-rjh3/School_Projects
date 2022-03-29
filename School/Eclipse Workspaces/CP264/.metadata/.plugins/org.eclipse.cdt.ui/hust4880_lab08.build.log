@@ -1,0 +1,6 @@
+02:28:14 **** Incremental Build of configuration Debug for project hust4880_lab08 ****
+Info: Internal Builder is used for build
+gcc -o hust4880_lab08.exe "src\\avl_main.o" "src\\avl_tree.o" 
+
+02:28:14 Build Finished. 0 errors, 0 warnings. (took 272ms)
+

@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : hust4880_lab01.c
+ Author      : Riley Huston
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout, NULL); // turns standard output buffering off
+	int number = 0;
+	printf("Enter a number: ");
+	scanf("%d", &number);
+	printf("The number you entered is %d\n", number);
+	return 0;
+}

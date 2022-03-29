@@ -1,0 +1,12 @@
+02:28:12 **** Incremental Build of configuration Debug for project hust4880_huffman_project ****
+Info: Internal Builder is used for build
+gcc -o hust4880_huffman_project.exe "src\\huffman.o" 
+src\huffman.o: In function `main':
+C:\Users\mrrjh\Desktop\CP Workspaces\CP264\hust4880_huffman_project\Debug/../src/huffman.c:28: undefined reference to `initialize'
+C:\Users\mrrjh\Desktop\CP Workspaces\CP264\hust4880_huffman_project\Debug/../src/huffman.c:31: undefined reference to `encode'
+C:\Users\mrrjh\Desktop\CP Workspaces\CP264\hust4880_huffman_project\Debug/../src/huffman.c:33: undefined reference to `decode'
+C:\Users\mrrjh\Desktop\CP Workspaces\CP264\hust4880_huffman_project\Debug/../src/huffman.c:39: undefined reference to `free_memory'
+collect2.exe: error: ld returned 1 exit status
+
+02:28:13 Build Failed. 4 errors, 0 warnings. (took 266ms)
+
