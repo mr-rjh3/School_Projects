@@ -7,6 +7,7 @@ Below is a table of all completed Wilfrid Laurier University computer science co
 | ----------- | ----------- |
 | CP104      | Introduction to Computer Programming       |
 | CP164   | Data Structures I        |
+| CP212   | Windows Application Programming        |
 | CP213    |Introduction to Object-oriented Programming       |
 | CP214   | Discrete Structures      |
 | CP216   | Introduction to Microprocessors        |
@@ -14,5 +15,6 @@ Below is a table of all completed Wilfrid Laurier University computer science co
 | CP264   | Data Structures II        |
 | CP312   | Algorithm Design and Analysis I        |
 | CP317   | Software Engineering        |
+| CP322   | Machine Learning       |
 | CP363   | Database I        |
 | CP372   | Computer Networks        |
