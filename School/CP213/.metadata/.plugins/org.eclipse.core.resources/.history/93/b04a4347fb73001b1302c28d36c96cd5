@@ -1,0 +1,20 @@
+package test;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Test {
+	Test(){
+		
+	}
+
+public static void main(String[] args) {
+	String w = new String();
+	int x = 3;
+	System.out.print(w);
+		 
+	 }
+}

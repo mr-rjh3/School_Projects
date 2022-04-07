@@ -1,0 +1,80 @@
+package cp213;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.Arrays;
+import java.util.Scanner;
+
+/**
+ * @author Riley Huston: 190954880
+ *
+ */
+public class A01_Main {
+    // Constants
+    public static final String SEP = "-".repeat(40);
+    public static final String CIPHERTEXT = "AVIBROWNZCEFGHJKLMPQSTUXYD"; // for testing substitute method
+
+    public static void main(String[] args) {
+
+    	System.out.println(SEP + "Shift");
+    		System.out.println(A01.shift("help", 0)); 
+    	
+    	System.out.println(SEP+ "Substitute");    	
+
+    	System.out.println(SEP+ "All Digits"); // DONE
+	    	String str = "231123123";
+	    	System.out.println(A01.allDigits(str));
+	    	
+    	
+    	System.out.println(SEP+ "Closest"); // DONE
+    	
+	    	double v1 = 10;
+	    	double v2 = 1;
+	    	double target = 10;
+	    	System.out.println(A01.closest(target, v1, v2));
+	    	
+    	
+    	System.out.println(SEP+ "Contains"); // DONE
+	    	int[] list = {0,1,2};
+	    	System.out.println(A01.contains(list, 8));
+	    	
+    	System.out.println(SEP+ "Get Lotto Numbers");
+    		int length = 10;
+    		int high = 10;
+    		int low = 5;
+    		int[] lotto = A01.getLottoNumbers(length, low, high);
+    		for(int i : lotto)
+    			System.out.print(i + " ");
+    		System.out.println();
+    	
+    	
+    	System.out.println(SEP+ "Is Leap Year");
+    	int year = 1752;
+    	System.out.println(A01.isLeapYear(year));
+    	
+    	System.out.println(SEP+ "isPalindrome");
+    	
+    	System.out.println(SEP+ "isPrime");
+    	
+    	System.out.println(SEP+ "isValid");
+    	
+    	System.out.println(SEP+ "matrixStats");
+    	
+    	System.out.println(SEP+ "numCategories");
+    	
+    	System.out.println(SEP+ "pigLatin");
+    	
+    	System.out.println(SEP+ "sumPartialHarmonic");
+    	
+    	System.out.println(SEP+ "validSn");
+    	
+    	System.out.println(SEP+ "validSnFile");
+    	
+    	
+    	
+    	
+
+   }
+
+}

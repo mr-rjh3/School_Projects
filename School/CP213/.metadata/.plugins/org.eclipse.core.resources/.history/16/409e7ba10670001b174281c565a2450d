@@ -1,0 +1,31 @@
+package test;
+import java.util.Scanner;
+
+public class Test {
+	
+	
+	
+public void test1() {
+        // Anonymous Runnable
+        Runnable r1 = new Runnable() {
+                       @Override
+                        public void run() {
+                                        System.out.println("Not using Lambda");
+                          }
+         };
+         r1.run();
+}
+
+
+public void test2() {
+	Scanner keyboard = new Scanner(System.in);
+
+	int n = keyboard.nextInt();
+	String s1 = keyboard.nextLine();
+	String s2 = keyboard.nextLine();
+	System.out.println( "n is " + n);
+	System.out.println( "s1 is " + s1);
+	System.out.println( "s2 is " + s2);
+		 
+	 }
+}

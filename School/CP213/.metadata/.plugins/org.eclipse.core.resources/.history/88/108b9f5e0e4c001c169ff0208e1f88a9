@@ -1,0 +1,61 @@
+package CP312;
+
+import java.util.*;
+
+public class Index {
+	
+	static public int ResearchRank(ArrayList<Integer> c, int Start, int End , int hindex) {
+		if(Start >= End) {
+			if(c.get(Start) > Start + 1)
+				hindex = Start + 1;
+			return hindex;
+		}
+		int mid = ((Start + End) / 2);
+		int i = c.get(mid);
+		if(i > mid + 1) {
+			System.out.println(i);
+			System.out.println(mid);
+			hindex = mid + 1;
+			return ResearchRank(c, mid + 1, End, hindex);
+		}
+		else if(i < mid + 1)
+			return ResearchRank(c, Start, mid - 1, hindex);
+		else
+			return mid + 1;
+	}
+	
+	
+	public static void main(String[] args) {
+		ArrayList<String> researchers = new ArrayList<String>();
+		
+		int hindex = 0;
+		 //input
+        Scanner in = new Scanner(System.in);
+        String input = null;
+        while (!(input = in.nextLine()).isEmpty())
+        {
+            researchers.add(input);
+        }
+        in.close();
+		
+        
+        for (String str : researchers) 
+        {
+            //split
+            String[] researcher = str.split(" ");
+            
+            //array of citations
+            ArrayList<Integer> c = new ArrayList<Integer>();
+            for(int i = 2; i < researcher.length; i++) {
+            	c.add(Integer.parseInt(researcher[i]));
+            }
+          
+        }
+		
+		System.out.println(researchers);
+		System.out.println(c);
+		//c.sort(Comparator.reverseOrder());
+		//System.out.println(ResearchRank(c, 0, c.size()-1, hindex));
+	}
+	
+}

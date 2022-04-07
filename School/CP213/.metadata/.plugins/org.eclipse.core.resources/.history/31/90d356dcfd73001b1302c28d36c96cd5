@@ -1,0 +1,21 @@
+package test;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Test {
+	public Test(){
+		
+	}
+
+	public static void main(String[] args) {
+
+		double price = 19.8;
+		String name = "magic apple";
+		System.out.printf("$%6f for each %s.", price, name);
+		
+	}
+}

@@ -1,0 +1,81 @@
+package nguy7710_a01;
+
+import java.util.*;
+import java.io.*;
+import java.net.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+class GUIWindow {
+    
+    public GUIWindow() {
+        JFrame frame = new Jframe();
+        JPanel panel = new JPanel();
+        
+        frame.setSize(400,400);
+        
+    }
+}
+
+public class Sender {
+
+    private static final int MAX_DATA_SIZE = 10000; //(in bytes)
+
+    public static void main(String[] args) {
+        
+        // Opens GUI Window
+        GUIWindow GUI = new GUIWindow(); 
+        
+
+    } // END OF MAIN
+
+    public static void Sending (String filename) throws FileNotFoundException { // PARAMETERS ARE THINGS FROM GUI
+        // Socket to receive ACK packet (data = ACK)
+        DatagramSocket recSocket = new DatagramSocket(); 
+        // Socket to send packets of data
+        DatagramSocket sendSocket = new DatagramSocket();
+        String fileString = "";
+        int seqNum = 0;
+        int ack = 0;
+        
+        long timeElapsed; // is given by user
+        long timerStart;
+        long timerEnd;
+        
+        // Open file that was requested by GUI
+        Scanner readFile = new Scanner(new File(filename));
+        // Reads the whole file into fileString
+        while (readFile.hasNext()) {
+            fileString += readFile.next();
+        }
+        
+        // Done reading file, close
+        readFile.close();
+        
+        // Creates free space of MDS bytes
+        byte[] buffer = new byte[MAX_DATA_SIZE];
+        
+        // While fileString has less than or equal to MDS bytes.. (IF ERROR, CHECK THIS TBH)
+        while (fileString.getBytes().length >= MAX_DATA_SIZE) {
+            // Fill buffer with the first MDS bytes of fileString
+            buffer = fileString.getBytes();
+            // Update fileString to erase the first MDS bytes
+            fileString = fileString.substring(MAX_DATA_SIZE);
+            // Create a packet with this information and send it
+            DatagramPacket segment = new DatagramPacket(); //
+            sendSocket.send(segment);
+            timerStart = System.currentTimeMillis();    // start timer
+            
+            while(System.currentTimeMillis() - timerStart <= timeElapsed) { // while the timer is running
+                // and no ack has been given
+                
+                // check for ack
+            } // Keeps sender locked from sending more segments
+            
+            // if no ack was given ie: packet was lost, retransmit
+    
+        } // While loop exits when fileString has less than MDS bytes
+            // Deletes the first MDS 
+    }
+} // END OF SENDER CLASS

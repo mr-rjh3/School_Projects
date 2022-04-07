@@ -1,0 +1,302 @@
+package cp213;
+
+import java.io.PrintStream;
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
+
+/**
+ * @author Riley Huston: 190954880
+ *
+ */
+public class A01 {
+
+    // Constants
+    public static final String VOWELS = "aeiouAEIOU";
+    public static final String ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    public static final int ALPHA_LENGTH = ALPHA.length();
+
+    /**
+     * Encipher a string using a shift cipher. Each letter is replaced by a letter
+     * 'n' letters to the right of the original. Thus for example, all shift values
+     * evenly divisible by 26 (the length of the English alphabet) replace a letter
+     * with itself. Non-letters are left unchanged.
+     *
+     * @param s string to encipher
+     * @param n the number of letters to shift
+     * @return the original plaintext string
+     */
+    public static String shift(String s, int n) {
+    	int i = 0;
+    	char[] c = s.toCharArray();
+    	while(i < c.length) {
+    		c[i]++;
+    		System.out.println(c[i]);
+    		i+=1;
+    		
+    	}
+    	s = s.valueOf(c);
+    	
+    	return s;
+
+    }
+
+    /**
+     * Encipher a string using the letter positions in ciphertext. Each letter is
+     * replaced by the letter in the same ordinal position in the ciphertext.
+     * Non-letters are left unchanged.
+     *
+     * @param s          string to encipher
+     * @param ciphertext ciphertext alphabet
+     * @return the plaintext string
+     */
+    public static String substitute(String s, String ciphertext) {
+
+	// your code here
+    	return s;
+
+    }
+
+    /**
+     * Determines if a string contains all digits.
+     *
+     * @param str The string to test.
+     * @return true if str is all digits, false otherwise.
+     */
+    public static boolean allDigits(String str) {
+    	boolean is_digits = false;
+    	
+    	if(!str.isEmpty()) {
+    		
+	    	int i = 0;
+	    	char[] c = str.toCharArray();
+	    	
+	    	while(i < str.length() && c[i] <= 57 && c[i] >= 48)
+	    		i++;
+	    	
+	    	if(i >= str.length())
+	    		is_digits = true;
+    	}
+    	
+    	return is_digits;
+
+    }
+
+    /**
+     * Determines closest value of two values to a target value.
+     *
+     * @param target the target value
+     * @param v1     first comparison value
+     * @param v2     second comparison value
+     * @return one of v1 or v2 that is closest to target, v1 is the value chosen if
+     *         v1 and v2 are an equal distance from target
+     */
+    public static double closest(double target, double v1, double v2) {
+    	double result;
+	
+    	if(v1 >= v2 && v1 <= target)
+    		result = v1;
+    	else
+    		result = v2;
+    	
+    	return result;
+
+    }
+
+    /**
+     * Looks for a integer in an array of integers.
+     *
+     * @param values array of int
+     * @param target value to search for
+     * @return true if target in values, false otherwise
+     */
+    public static boolean contains(int[] values, int target) {
+
+    	boolean found = false;
+    	int i = 0;
+    	while (!found && i < values.length) {
+    		if (values[i] == target)
+    			found = true;
+    		else
+    			i++;
+    	}
+    	return found;
+    }
+
+    /**
+     * Generates a sorted list of unique lottery numbers.
+     *
+     * @param n    number of lottery numbers to generate
+     * @param low  low value of the lottery number range
+     * @param high high value of the lottery number range
+     * @return a list of unique random lottery numbers
+     */
+    public static int[] getLottoNumbers(int n, int low, int high) {
+    	int[] lotto = {};
+    	Random rnd = new Random();
+    	
+    	for(int i = 0; i < n; i++) {
+    		lotto = Arrays.copyOf(lotto, lotto.length + 1);
+    		lotto[lotto.length - 1] = rnd.nextInt(high + 1 - low) + low;
+    		
+    	}
+    	
+    	
+    	return lotto;
+    }
+
+    /**
+     * Determines whether or not a year is a leap year.
+     *
+     * @param year The year to test (int greater than 0)
+     * @return true if year is a leap year, false otherwise.
+     */
+    public static boolean isLeapYear(final int year) {
+    	boolean is_leap = false;
+    	if(year % 4 == 0 && year % 100 != 0)
+    		is_leap = true;
+    	if(year % 100 == 0) {
+			if(year % 400 == 0) {
+	    		is_leap = true;
+
+			}
+    		
+    	
+	
+    	
+    	return is_leap;
+    }
+
+    /**
+     * Determines if s is a palindrome. Ignores case, spaces, digits, and
+     * punctuation in the string parameter s.
+     *
+     * @param s a string
+     * @return true if s is a palindrome, false otherwise
+     */
+//    public static boolean isPalindrome(final String s) {
+//
+//	// your code here
+//
+//    }
+
+    /**
+     * Determines if n is a prime number.
+     *
+     * @param n an integer
+     * @return true if n is prime, false otherwise
+     */
+//    public static boolean isPrime(int n) {
+//
+//	// your code here
+//
+//    }
+
+    /**
+     * Determines if name is a valid Java variable name. Variables names must start
+     * with a letter or an underscore, but cannot be an underscore alone. The rest
+     * of the variable name may consist of letters, numbers and underscores.
+     *
+     * @param name a string to test as a Java variable name
+     * @return true if name is a valid Java variable name, false otherwise
+     */
+//    public static boolean isValid(final String name) {
+//
+//	// your code here
+//
+//    }
+
+    /**
+     * Determines the smallest, largest, total, and average of the values in the 2D
+     * list a. You may assume there is at least one value in a and that a is a
+     * square matrix - i.e. the number of columns per row is the same. a must be
+     * unchanged.
+     *
+     * @param a - a 2D list of numbers (2D list of double)
+     *
+     * @return a list of four double values containing the smallest number in a,the
+     *         largest number in a, the total of all numbers in a, and the average
+     *         of all numbers in a, in that order.
+     */
+//    public static double[] matrixStats(double[][] a) {
+//
+//	// your code here
+//
+//    }
+
+    /**
+     * Counts and returns how may positives, negatives, and zeroes there are in an
+     * array of integers.
+     *
+     * @param numbers array of int
+     * @return number of negative values, number of zero values, number of positive
+     *         values
+     */
+//    public static int[] numCategories(int[] numbers) {
+//
+//	// your code here
+//
+//    }
+
+    /**
+     * Converts a word to Pig Latin. The conversion is:
+     * <ul>
+     * <li>if a word begins with a vowel, add "way" to the end of the word.</li>
+     * <li>if the word begins with consonants, move the leading consonants to the
+     * end of the word and add "ay" to the end of that. "y" is treated as a
+     * consonant if it is the first character in the word, and as a vowel for
+     * anywhere else in the word.</li>
+     * </ul>
+     * Preserve the case of the word - i.e. if the first character of word is
+     * upper-case, then the new first character should also be upper case.
+     *
+     * @param word The string to convert to Pig Latin
+     * @return the Pig Latin version of word
+     */
+//    public static String pigLatin(String word) {
+//
+//	// your code here
+//
+//    }
+
+    /**
+     * Sums and returns the total of a partial harmonic series. This series is the
+     * sum of all terms 1/i, where i ranges from 1 to n (inclusive).
+     *
+     * @param n an integer
+     * @return sum of partial harmonic series from 1 to n
+     */
+//    public static double sumPartialHarmonic(int n) {
+//
+//	// your code here
+//
+//    }
+
+    /**
+     * Determines if a string is a good serial number. Good serial numbers are of
+     * the form 'SN/nnnn-nnn', where 'n' is a digit.
+     *
+     * @param sn The serial number to test.
+     * @return true if the serial number is valid in form, false otherwise.
+     */
+//    public static boolean validSn(String sn) {
+//
+//	// your code here
+//
+//    }
+
+    /**
+     * Evaluates serial numbers from a file. Writes valid serial numbers to
+     * good_sns, and invalid serial numbers to bad_sns.
+     *
+     * @param fileIn  a file already open for reading
+     * @param goodSns a file already open for writing
+     * @param badSns  a file already open for writing
+     */
+//    public static void validSnFile(Scanner fileIn, PrintStream goodSns, PrintStream badSns) {
+//
+//	// your code here
+//
+//    }
+
+}

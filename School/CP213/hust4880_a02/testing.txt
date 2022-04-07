@@ -1,0 +1,291 @@
+Complete, closing files...
+----------------------------------------
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: false
+Calories:   135
+
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: false
+Calories:   490
+
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: false
+Calories:   272
+
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: true
+Calories:   138
+
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: true
+Calories:   260
+
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: false
+Calories:   600
+
+Name:       Canuck Burger
+Origin:     Canadian
+Vegetarian: false
+Calories:   7500
+
+Name:       B'ssara
+Origin:     Moroccan
+Vegetarian: true
+Calories:   178
+
+Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: false
+Calories:   46
+
+Name:       Chamuco
+Origin:     Mexican
+Vegetarian: true
+Calories:   150
+
+Name:       Natto
+Origin:     Japanese
+Vegetarian: true
+Calories:   212
+
+Name:       Canada Goose Chili
+Origin:     Canadian
+Vegetarian: false
+Calories:   199
+
+Name:       Diet Free-Range Gluten-free Water
+Origin:     Canadian
+Vegetarian: true
+Calories:   0
+
+Name:       Kung Pao Chicken
+Origin:     Chinese
+Vegetarian: false
+Calories:   229
+
+Name:       General Tao Chicken
+Origin:     Chinese
+Vegetarian: false
+Calories:   850
+
+Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: true
+Calories:   140
+
+Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: false
+Calories:   920
+
+Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: false
+Calories:   800
+
+Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: true
+Calories:   143
+
+Name:       Lemon Chicken
+Origin:     Chinese
+Vegetarian: false
+Calories:   226
+
+Name:       Beef with Green Pepper
+Origin:     Chinese
+Vegetarian: false
+Calories:   251
+
+Name:       Sweet and Sour Pork
+Origin:     Chinese
+Vegetarian: false
+Calories:   231
+
+Name:       Szechuan Shrimp
+Origin:     Chinese
+Vegetarian: false
+Calories:   516
+
+Name:       Poutine
+Origin:     Canadian
+Vegetarian: false
+Calories:   710
+
+Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: false
+Calories:   200
+
+Name:       Greek Salad
+Origin:     Greek
+Vegetarian: true
+Calories:   185
+
+Name:       Fettuccine
+Origin:     Italian
+Vegetarian: false
+Calories:   266
+
+Name:       Teriyaki
+Origin:     Japanese
+Vegetarian: false
+Calories:   233
+
+Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: true
+Calories:   502
+
+Name:       Arepas
+Origin:     Columbian
+Vegetarian: true
+Calories:   219
+
+Name:       Bandeja Paisa
+Origin:     Columbian
+Vegetarian: false
+Calories:   1000
+
+Name:       Fricot
+Origin:     Canadian
+Vegetarian: false
+Calories:   360
+
+Name:       Chip Butty
+Origin:     English
+Vegetarian: true
+Calories:   956
+
+Name:       Grilled Salmon
+Origin:     Canadian
+Vegetarian: false
+Calories:   511
+
+Name:       Ravioli
+Origin:     Italian
+Vegetarian: false
+Calories:   246
+
+Name:       Crepe
+Origin:     Italian
+Vegetarian: true
+Calories:   186
+
+Name:       Fried Rice
+Origin:     Chinese
+Vegetarian: false
+Calories:   425
+
+Name:       Pepperoni Pizza
+Origin:     Italian
+Vegetarian: false
+Calories:   713
+
+Name:       Chicken Kabob
+Origin:     Indian
+Vegetarian: false
+Calories:   167
+
+Name:       Panzerotti
+Origin:     Italian
+Vegetarian: false
+Calories:   770
+
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: true
+Calories:   200
+
+Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: false
+Calories:   178
+
+Name:       Kefta tagine
+Origin:     Moroccan
+Vegetarian: false
+Calories:   2112
+
+----------------------------------------averageCalories
+572
+----------------------------------------averageCaloriesByOrigin
+150
+----------------------------------------foodSearch
+[Name:       Diet Free-Range Gluten-free Water
+Origin:     Canadian
+Vegetarian: true
+Calories:   0
+]
+----------------------------------------getByOrigin
+[Name:       Chamuco
+Origin:     Mexican
+Vegetarian: true
+Calories:   150
+]
+----------------------------------------getVegetarian
+[Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: true
+Calories:   138
+, Name:       Spanakopita
+Origin:     Greek
+Vegetarian: true
+Calories:   260
+, Name:       B'ssara
+Origin:     Moroccan
+Vegetarian: true
+Calories:   178
+, Name:       Chamuco
+Origin:     Mexican
+Vegetarian: true
+Calories:   150
+, Name:       Natto
+Origin:     Japanese
+Vegetarian: true
+Calories:   212
+, Name:       Diet Free-Range Gluten-free Water
+Origin:     Canadian
+Vegetarian: true
+Calories:   0
+, Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: true
+Calories:   140
+, Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: true
+Calories:   143
+, Name:       Greek Salad
+Origin:     Greek
+Vegetarian: true
+Calories:   185
+, Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: true
+Calories:   502
+, Name:       Arepas
+Origin:     Columbian
+Vegetarian: true
+Calories:   219
+, Name:       Chip Butty
+Origin:     English
+Vegetarian: true
+Calories:   956
+, Name:       Crepe
+Origin:     Italian
+Vegetarian: true
+Calories:   186
+, Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: true
+Calories:   200
+]

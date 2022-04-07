@@ -1,0 +1,183 @@
+package nguy7710_a01;
+
+import java.util.*;
+import java.io.*;
+import java.net.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+class GUIwindow extends JPanel {
+	int Packets = 0;
+	JTextField Address = new JTextField("");
+	JTextField SenderPort = new JTextField("");
+	JTextField ReceiverPort = new JTextField("");
+	JTextField FileName = new JTextField("");
+	JTextField Timeout = new JTextField("");
+	JTextField PacketNum = new JTextField(Integer.toString(Packets));
+	
+	public GUIwindow() {
+		try {
+			
+			// SEND BUTTON INCOMPLETE~ Currently increments packet number for testing purposes
+				// Will need to give The sender program the following variables:
+				// Address, SenderPort, RecieverPort, FileName, and Timeout
+			JButton bSend = new JButton("Send File");
+			bSend.addActionListener(new ActionListener() {
+			    public void actionPerformed(ActionEvent e) {
+			        PacketNum.setText(Integer.toString(++Packets));
+			    }
+			});
+			
+			// ALIVE BUTTON INCOMPLETE ~ Currently increments packet number for testing purposes
+				// Will need to ping server program to see if it is currently up to send data over
+			JButton bAlive = new JButton("Alive?");
+			bAlive.addActionListener(new ActionListener() {
+			    public void actionPerformed(ActionEvent e) {
+			        PacketNum.setText(Integer.toString(++Packets));
+			    }
+			});
+			
+			JFrame connectionWindow = new JFrame();			// Create Window
+			JPanel connectionPanel = new JPanel();			// Create Frame
+			
+			// TEXTFIELD LABELS
+				// These are all the TextFields to the left of the input TextFields being defined
+			
+			// Address Field
+			JTextField get_address = new JTextField("IP of Server:");
+			get_address.setEditable(false);
+			
+			// Sender Port Field
+			JTextField get_senderport = new JTextField("Connect at Sender Port:");
+			get_senderport.setEditable(false);
+			
+			// Receiver port Field
+			JTextField get_receiverport = new JTextField("Connect at Receiver Port:");
+			get_receiverport.setEditable(false);
+			
+			// Filename Field
+			JTextField get_filename = new JTextField("File Name:");
+			get_filename.setEditable(false);
+			
+			// Timeout Field
+			JTextField get_timeout = new JTextField("Length Until Timeout in Milliseconds:");
+			get_timeout.setEditable(false);
+			
+			// Packet Number Field
+			JTextField PacketNumLabel = new JTextField("Current Number of Sent In-Order Packets:");
+			PacketNumLabel.setEditable(false);
+			PacketNum.setEditable(false);
+			
+			
+			// Setting GridBagLayout to Panel
+			connectionPanel.setLayout(new GridBagLayout());
+			connectionPanel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
+			GridBagConstraints gbc = new GridBagConstraints();
+			gbc.fill = GridBagConstraints.BOTH;
+			gbc.weightx = 1;
+			
+			// Add panel to frame and set window size
+			connectionWindow.setSize(600, 300);
+			connectionWindow.add(connectionPanel);	
+			
+			// Add all TextFields to Panel using the GridBagLayout
+			connectionPanel.add(PacketNumLabel, gbc);
+			connectionPanel.add(PacketNum, gbc);
+			gbc.gridy = 1;
+			connectionPanel.add(get_address, gbc);
+			connectionPanel.add(Address, gbc);
+			gbc.gridy = 2;
+			connectionPanel.add(get_senderport, gbc);
+			connectionPanel.add(SenderPort, gbc);
+			gbc.gridy = 3;
+			connectionPanel.add(get_receiverport, gbc);
+			connectionPanel.add(ReceiverPort, gbc);
+			gbc.gridy = 4;
+			connectionPanel.add(get_filename, gbc);
+			connectionPanel.add(FileName, gbc);
+			gbc.gridy = 5;
+			connectionPanel.add(get_timeout, gbc);
+			connectionPanel.add(Timeout, gbc);
+			gbc.gridy = 6;
+			connectionPanel.add(bAlive, gbc);
+			connectionPanel.add(bSend, gbc);
+			
+			// Set Window title, close operation and visibility
+			connectionWindow.setTitle("Stop and Wait 3.0");
+			connectionWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			connectionWindow.setVisible(true);
+		}
+		catch(Exception e) {
+			System.out.println("ERROR!!");
+		}
+	}
+} // END OF GUIwindow
+
+public class Sender {
+
+	String Address;
+	String SenderPort;
+	String ReceiverPort;
+	String FileName;
+	String Timeout;
+	
+    private static final int MAX_DATA_SIZE = 10000; //(in bytes)
+
+    public static void main(String[] args) {
+        
+        // Opens GUI Window
+        GUIwindow GUI = new GUIwindow(); 
+        
+
+    } // END OF MAIN
+
+    public static void Sending (String filename) throws FileNotFoundException { // PARAMETERS ARE THINGS FROM GUI
+        // Socket to receive ACK packet (data = ACK)
+        DatagramSocket recSocket = new DatagramSocket(); 
+        // Socket to send packets of data
+        DatagramSocket sendSocket = new DatagramSocket();
+        String fileString = "";
+        int seqNum = 0;
+        int ack = 0;
+        
+        long timeElapsed; // is given by user
+        long timerStart;
+        long timerEnd;
+        
+        // Open file that was requested by GUI
+        Scanner readFile = new Scanner(new File(filename));
+        // Reads the whole file into fileString
+        while (readFile.hasNext()) {
+            fileString += readFile.next();
+        }
+        
+        // Done reading file, close
+        readFile.close();
+        
+        // Creates free space of MDS bytes
+        byte[] buffer = new byte[MAX_DATA_SIZE];
+        
+        // While fileString has less than or equal to MDS bytes.. (IF ERROR, CHECK THIS TBH)
+        while (fileString.getBytes().length >= MAX_DATA_SIZE) {
+            // Fill buffer with the first MDS bytes of fileString
+            buffer = fileString.getBytes();
+            // Update fileString to erase the first MDS bytes
+            fileString = fileString.substring(MAX_DATA_SIZE);
+            // Create a packet with this information and send it
+            DatagramPacket segment = new DatagramPacket(); //
+            sendSocket.send(segment);
+            timerStart = System.currentTimeMillis();    // start timer
+            
+            while(System.currentTimeMillis() - timerStart <= timeElapsed) { // while the timer is running
+                // and no ack has been given
+                
+                // check for ack
+            } // Keeps sender locked from sending more segments
+            
+            // if no ack was given ie: packet was lost, retransmit
+    
+        } // While loop exits when fileString has less than MDS bytes
+            // Deletes the first MDS 
+    }
+} // END OF SENDER CLASS

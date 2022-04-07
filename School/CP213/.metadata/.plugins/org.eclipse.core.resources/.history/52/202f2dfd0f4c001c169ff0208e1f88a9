@@ -1,0 +1,67 @@
+package CP312;
+
+import java.util.*;
+
+public class Index {
+	
+	static public int ResearchRank(ArrayList<Integer> c, int Start, int End , int hindex) {
+		if(Start >= End) {
+			if(c.get(Start) > Start + 1)
+				hindex = Start + 1;
+			return hindex;
+		}
+		int mid = ((Start + End) / 2);
+		int i = c.get(mid);
+		if(i > mid + 1) {
+			hindex = mid + 1;
+			return ResearchRank(c, mid + 1, End, hindex);
+		}
+		else if(i < mid + 1)
+			return ResearchRank(c, Start, mid - 1, hindex);
+		else
+			return mid + 1;
+	}
+	
+	
+	public static void main(String[] args) {
+		ArrayList<String> researchers = new ArrayList<String>();
+		ArrayList<String> researcherSort = new ArrayList<String>();
+		ArrayList<Integer> c = new ArrayList<Integer>();
+		
+		int hindex = 0;
+		 //input
+        Scanner in = new Scanner(System.in);
+        String input = null;
+        while (!(input = in.nextLine()).isEmpty())
+        {
+            researchers.add(input);
+        }
+        in.close();
+		
+        
+        for (String str : researchers) 
+        {
+            //split
+            String[] researcher = str.split(" ");
+            
+            //array of citations
+            
+            for(int i = 2; i < researcher.length; i++) {
+            	c.add(Integer.parseInt(researcher[i]));
+            }
+            c.sort(Comparator.reverseOrder());
+            
+    		researcherSort.add(researcher[0] + " " + researcher[1] + " : " + String.valueOf(ResearchRank(c, 0, c.size()-1, hindex)));
+    		System.out.println(c);
+    		System.out.println(researcherSort.sort(Comparator.naturalOrder());
+    		
+        }
+        
+		
+        
+		
+		
+		
+	}
+	
+}

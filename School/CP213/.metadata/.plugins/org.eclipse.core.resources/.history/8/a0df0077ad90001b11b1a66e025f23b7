@@ -1,0 +1,49 @@
+package cp213;
+
+import java.awt.Dimension;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.WindowConstants;
+
+import javax.swing.JButton;
+
+/**
+ * Handles the GUI portion of the vending machine. May use other GUI classes for
+ * individual elements of the vending machine. Should use the VendModel for all
+ * control logic.
+ *
+ * @author your name here
+ * @version 2021-03-19
+ */
+@SuppressWarnings("serial")
+public class VendView extends JPanel {
+
+    private VendModel model = null;
+    
+    public VendView(VendModel model) {
+    	this.model = model;
+		// your code here
+    	JButton[][] buttons = new JButton[3][3];
+    	int number = 1;
+    	GridBagConstraints gbc = new GridBagConstraints();
+		this.setLayout(new GridBagLayout());
+		
+		for (int i = 0; i < 3; i++) {
+			for(int j = 0; j < 3; j++) {
+				buttons[i][j] = new JButton(String.valueOf(number));
+				buttons[i][j].setBounds(400, 100,10,10);
+				gbc.gridx = j;
+				gbc.gridy = i;
+				this.add(buttons[i][j],gbc);
+				number++;
+			}
+		}
+		
+		
+    }
+
+}
