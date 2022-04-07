@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Move &apos;encMessage.txt&apos; to &apos;hust4880_Quiz03_Q2&apos;" description="Move &apos;encMessage.txt&apos; to &apos;hust4880_Quiz03_Q2&apos;" destination="/hust4880_Quiz03_Q2" element1="src/encMessage.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1601918352767" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;hust4880_Quiz03_Q2/src/hust4880_Quiz03_Q2.c&apos; to &apos;Q2.c&apos;" description="Rename resource &apos;hust4880_Quiz03_Q2.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hust4880_Quiz03_Q2.c" name="Q2.c" stamp="1601922381314" updateReferences="true"/>
-</session>

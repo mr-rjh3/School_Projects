@@ -1,7 +1,0 @@
-15:36:34 **** Incremental Build of configuration Debug for project wtfwhy ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\wtfwhy.o" "..\\src\\wtfwhy.c" 
-gcc -o wtfwhy.exe "src\\wtfwhy.o" 
-
-15:36:35 Build Finished. 0 errors, 0 warnings. (took 791ms)
-

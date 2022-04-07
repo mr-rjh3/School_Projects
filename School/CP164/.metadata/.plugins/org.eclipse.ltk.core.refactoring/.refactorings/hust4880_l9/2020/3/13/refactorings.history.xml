@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;hust4880_l9/src/Hash_Set_array (1).py&apos; to &apos;Hash_Set_array.py&apos;" description="Rename resource &apos;Hash_Set_array (1).py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Hash_Set_array (1).py" name="Hash_Set_array.py" stamp="1585191959530" updateReferences="true"/>
-</session>

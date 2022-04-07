@@ -1,9 +1,0 @@
-10:13:27 **** Incremental Build of configuration Debug for project 202001_CP264_Lab04 ****
-make all 
-Cannot run program "make": Launching failed
-
-Error: Program "make" not found in PATH
-PATH=[C:\cygwin64\bin;C:/Program Files/Java/jdk-13/bin/server;C:/Program Files/Java/jdk-13/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\mrrjh\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\mrrjh\AppData\Local\Programs\Python\Python37-32\;C:\Users\mrrjh\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\mrrjh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;;C:\Users\mrrjh\cp104\eclipse]
-
-10:13:28 Build Failed. 1 errors, 0 warnings. (took 118ms)
-

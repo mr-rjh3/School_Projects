@@ -1,7 +1,0 @@
-02:28:10 **** Incremental Build of configuration Debug for project hust4880_Quiz06 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q6.o" "..\\src\\Q6.c" 
-gcc -o hust4880_Quiz06.exe "src\\Q6.o" 
-
-02:28:11 Build Finished. 0 errors, 0 warnings. (took 776ms)
-

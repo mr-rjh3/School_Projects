@@ -1,6 +1,0 @@
-03:30:00 **** Incremental Build of configuration Debug for project hust4880_lab09 ****
-Info: Internal Builder is used for build
-gcc -o hust4880_lab09.exe "src\\hashing_int.o" "src\\main_int.o" 
-
-03:30:00 Build Finished. 0 errors, 0 warnings. (took 326ms)
-

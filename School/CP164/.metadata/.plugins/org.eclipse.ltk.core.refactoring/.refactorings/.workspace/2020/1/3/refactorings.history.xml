@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;hust4880_data_structures/src/Food.py&apos;" deleteContents="false" description="Delete resource &apos;hust4880_data_structures/src/Food.py&apos;" element1="/hust4880_data_structures/src/Food.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1579118358945"/>&#x0A;<refactoring comment="Delete resource &apos;hust4880_a01/src/bruh.txt&apos;" deleteContents="false" description="Delete resource &apos;hust4880_a01/src/bruh.txt&apos;" element1="/hust4880_a01/src/bruh.txt" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1579225235529"/>
-</session>

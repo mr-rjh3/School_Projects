@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Move &apos;text.txt&apos; to &apos;hust4880_lab04&apos;" description="Move &apos;text.txt&apos; to &apos;hust4880_lab04&apos;" destination="/hust4880_lab04" element1="/hust4880_l03/text.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1602252880182" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;text.txt&apos; to &apos;hust4880_lab04&apos;" description="Move &apos;text.txt&apos; to &apos;hust4880_lab04&apos;" destination="/hust4880_lab04" element1="src/text.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1602254673828" updateReferences="true"/>
-</session>

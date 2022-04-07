@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;hust4880_quiz01/src/hust4880_quiz01.c&apos; to &apos;hust4880_q01.c&apos;" description="Rename resource &apos;hust4880_quiz01.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hust4880_quiz01.c" name="hust4880_q01.c" stamp="1600711323036" updateReferences="true"/>
-</session>

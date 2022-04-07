@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;hust4880_l03/src/hust4880_l03.c&apos; to &apos;decode_message.c&apos;" description="Rename resource &apos;hust4880_l03.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hust4880_l03.c" name="decode_message.c" stamp="1601646931978" updateReferences="true"/>
-</session>
