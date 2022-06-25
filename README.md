@@ -18,3 +18,4 @@ Below is a table of all completed Wilfrid Laurier University computer science co
 | CP322   | Machine Learning       |Python Notebook|
 | CP363   | Database I        |mySQL|
 | CP372   | Computer Networks        |Python|
+| CP386   | Operating Systems        |C|
