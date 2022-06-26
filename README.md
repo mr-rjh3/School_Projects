@@ -1,7 +1,7 @@
 # School_Projects
 Projects that were done for Wilfrid Laurier University and some Highschool projects as well
 
-Below is a table of all completed Wilfrid Laurier University computer science courses: 
+Below is a table of all Wilfrid Laurier University computer science courses I've taken: 
 
 | Course Code      | Title |Main Language Used|
 | ----------- | ----------- | ----------- |
