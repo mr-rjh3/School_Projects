@@ -1,7 +1,7 @@
 # School_Projects
 Projects that were done for Wilfrid Laurier University and some Highschool projects as well
 
-Below is a table of all completed Wilfrid Laurier University computer science courses: 
+Below is a table of all Wilfrid Laurier University computer science courses I've taken: 
 
 | Course Code      | Title |Main Language Used|
 | ----------- | ----------- | ----------- |
@@ -18,3 +18,4 @@ Below is a table of all completed Wilfrid Laurier University computer science co
 | CP322   | Machine Learning       |Python Notebook|
 | CP363   | Database I        |mySQL|
 | CP372   | Computer Networks        |Python|
+| CP386   | Operating Systems        |C|
