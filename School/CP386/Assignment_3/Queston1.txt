@@ -1,0 +1,6 @@
+This solution prevents deadlocks and the race condtion using mutexes and semaphores, the f array is an array full of semaphores that represent each chopstick.
+Only one philosopher may pick up chopsticks at a time, all other philosophers are locked behind the mutex lock until both chopsticks have been taken.
+If a philosopher attempts to pick up a chopstick that has already been taken by another philosopher, they must wait inside the critical section for the chopstick to be put down. 
+This means that the critical section stays locked until the philosopher has taken both chopsticks.
+This is what prevents the deadlock of all philosophers having only one chopstick.
+
